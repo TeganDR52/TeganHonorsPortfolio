@@ -1,4 +1,7 @@
-html {scroll-behavior: smooth;}
+html {
+	scroll-behavior: smooth;
+	scrollbar-color: #FFE68C #514EB1;
+}
 
 body {
 	background-image: url("Pictures/Background.png"); 
