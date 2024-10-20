@@ -1,7 +1,7 @@
 html {
 	scroll-behavior: smooth;
 	scrollbar-color: #FFE68C #514EB1;
-}
+	}
 
 body {
 	background-image: url("Pictures/Background.png"); 
@@ -325,4 +325,24 @@ small {
 	text-shadow: 0 0 7px #FC97CC;
 	font-size: 8pt;
 	font-family: "Arial";
+}
+
+.CharacterTable {
+	margin-left: auto; 
+	margin-right: auto; 
+	padding: 5px; 
+	border-spacing: 32px;
+}
+
+.CharacterTable td {
+	text-align: center; 
+	font-weight: bold; 
+	font-size: 14pt; 
+	border: none;
+	font-family: "Arial"; 
+	color: #FFFFFF;
+	text-shadow: 0 0 3px #FFFFFF;
+	border: 4px solid #514EB1;
+	padding: 10px; 
+	background: rgba(151, 149, 208, 0.92);
 }
