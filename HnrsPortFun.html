@@ -53,15 +53,14 @@ university honors program">
 
 <p> 
 This is a webpage devoted to all of my fun and mostly inconsequential side projects. Some are art-related, some are crafts, and all
-of them are sheerly made for the joy and passion I have for creating odd and whimsical things. I hope you enjoy!
+of them are were included to help make this website as enjoyable to visit as possible. So I hope you enjoy!
 </p>
 
-<p style = "text-align: center"> <span class = "VeryImp">* WARNING: Content on this page may be a little wacky, a little silly,
-and may not be suitable for a professional resume. Be prepared for randomness. *</span> </p>
+<p style = "text-align: center"> <span class = "VeryImp">* Click on the boxes to see their content! *</span> </p>
 
-<hr>
+<button type = "button" class = "Collapsible"> Daily Bug Art </button>
 
-<h2> Daily Bug Art </h2>
+<div class = "CollapsibleContent">
 
 <p> 
 If you couldn't already tell, I am a massive fan of bugs. Big or small, delicate or dangerous - I think they're unique and beautiful,
@@ -77,9 +76,17 @@ I have 50 days of daily bug art planned, so be sure to check back if you like wh
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSYAsZKpaNOTxw8xjfbJmmNluocxiy1vy7u23IEMrh375RgHjsE7GBqtqBrzksBQ-0cY4Tj6sJiMbmS/embed?start=true&loop=true&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<hr>
+<br>
+<br>
 
-<h2> Pikmin Bloom </h2>
+</div>
+
+<br>
+<br>
+
+<button type = "button" class = "Collapsible"> Add me as a friend on Pikmin Bloom! </button>
+
+<div class = "CollapsibleContent2">
 
 <p>
 By the same creators of Pokemon Go, there is a game that I believe is even better called Pikmin Bloom. You walk around, and the game
@@ -123,6 +130,7 @@ to your friend list!
 
 <img src = "Pictures/PikminQR.jpeg" alt = "Scan this" class = "FactPic2">
 
+</div>
 
 </div>
 
@@ -141,6 +149,23 @@ to your friend list!
 <a href = "#top">
 <img src = "Pictures/BlastOff.png" alt = "A cool rocket ship. Click it to go back to the top of the page!" id = "Back2Top">
 </a>
+
+<script>
+var coll = document.getElementsByClassName("Collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
 </BODY>
 
