@@ -258,7 +258,7 @@ footer{
 .FunFact1, .FunFact2 {
 	border: 4px solid #514EB1;
 	padding: 10px;
-	background: rgba(151, 149, 208, 0.92);
+	background: rgba(151, 149, 208, 0.55);
 }
 
 .FunFact1 p {
@@ -338,11 +338,53 @@ small {
 	text-align: center; 
 	font-weight: bold; 
 	font-size: 14pt; 
-	border: none;
 	font-family: "Arial"; 
 	color: #FFFFFF;
 	text-shadow: 0 0 3px #FFFFFF;
 	border: 4px solid #514EB1;
 	padding: 10px; 
-	background: rgba(151, 149, 208, 0.92);
+	background: rgba(151, 149, 208, 0.55);
+}
+
+/* THIS IS A TEST!!!!!!!!! */
+
+.Collapsible {
+	background-color: #514EB1;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	transition-duration: 0.5s;
+	
+	font-size: 18pt;
+	font-family: "Arial";
+	font-weight: bold;
+	color: #FFE68C;
+	text-shadow: 0 0 5px #FFE68C;
+}
+
+.Collapsible:hover {
+	background-color: #413E8E;
+	transition-duration: 0.5s;
+}
+
+.CollapsibleContent {
+	display: none;
+	overflow: hidden;
+	background-color: rgba(151, 149, 208, 0.55);
+	border-left: 4px solid #514EB1;
+	border-right: 4px solid #514EB1;
+	border-bottom: 4px solid #514EB1;
+	border-top: none;
+	padding: 0 18px;
+	width: 94.5%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.CollapsibleContent2 {
+	display: none;
 }
