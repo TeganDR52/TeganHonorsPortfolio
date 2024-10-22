@@ -61,7 +61,11 @@ university honors program">
 
 <main>
 
-<h2> Key Information </h2>
+<p style = "text-align: center"> <span class = "VeryImp">* Click on the boxes to see their content! *</span> </p>
+
+<button type = "button" class = "Collapsible"> Key Information </button>
+
+<div class = "CollapsibleContent">
 
 <p> <span class = "Imp">Name:</span> Tegan Rohne </p>
 
@@ -69,21 +73,30 @@ university honors program">
 
 <p> <span class = "Imp">Birthday:</span> December 5 </p>
 
-<p> <span class = "Imp">Major:</span> Information Technology, specifically studying both Software Development & Game Design! </p>
+<p> <span class = "Imp">Major:</span> Information Technology (Game Design) </p>
+
+<p> <span class = "Imp">Minor:</span> Information Technology (Software Development) </p>
+
+<p> <span class = "Imp">Projected Year of Graduation:</span> 2028 </p>
 
 <p> <span class = "Imp">Favorite color:</span> Cyan </p>
 
-<p> <span class = "Imp">Favorite food:</span> Donuts </p>
+<p> <span class = "Imp">Favorite food:</span> Mac & Cheese </p>
 
 <p> <span class = "Imp">Favorite species of moth:</span> Apantesis phalerata </p>
 
 <p> <span class = "Imp">Favorite NASCAR driver:</span> Christopher Bell </p>
 
-<p> <span class = "Imp">Current number of programming languages I've used:</span> 4 </p>
-
 <p style = "text-align: center"> <span class = "VeryImp">* This is all very important information - I swear! *</span> </p>
 
-<hr>
+</div>
+
+<br>
+<br>
+
+<button type = "button" class = "Collapsible"> My Story </button>
+
+<div class = "CollapsibleContent">
 
 <h2> My Story </h2>
 
@@ -132,9 +145,14 @@ person that has tried to tear me down, I've only grown and improved. I am an ent
 knowledge or take on a new challenge - and nobody is going to stand in my way. 
 </p>
 
-<hr>
+</div>
 
-<h2> My Main Strengths </h2> 
+<br>
+<br>
+
+<button type = "button" class = "Collapsible"> My Strengths </button>
+
+<div class = "CollapsibleContent2">
 
 <p>
 One of the many aspects of the University Honors Program is being able to recognize your strengths and how they play into your role 
@@ -165,18 +183,24 @@ test will further help you to see the awesome within yourself, and what traits s
 
 </table>
 
+</div>
+
+<br>
 <br>
 
-<hr>
+<button type = "button" class = "Collapsible"> Other Facts </button>
 
-<h2> Other Facts About Me </h2>
+<div class = "CollapsibleContent2">
+
+
+<br>
 
 <div class = "FunFact1">
 
 <img src = "Pictures/TigerMothPic.jpeg" alt = "Picture of my favorite species of moth, Apantesis phalerata, on a plant in my front yard" class = "FactPic1">
 
 <p>
-I am a huge fan of bugs, especially lepidoptera and odonata, and I'm always looking for opportunities to let them crawl 
+I am a huge fan of bugs, especially lepidoptera, and I'm always looking for opportunities to let them crawl 
 up onto my hands for a cool picture!
 
 <br>
@@ -218,6 +242,8 @@ have yet to sprout.
 
 </div>
 
+</div>
+
 <br>
 
 <hr>
@@ -235,6 +261,23 @@ have yet to sprout.
 <a href = "#top">
 <img src = "Pictures/BlastOff.png" alt = "A cool rocket ship. Click it to go back to the top of the page!" id = "Back2Top">
 </a>
+
+<script>
+var coll = document.getElementsByClassName("Collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
 </BODY>
 
