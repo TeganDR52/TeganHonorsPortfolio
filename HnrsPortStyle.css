@@ -1,15 +1,14 @@
-html {
-	scroll-behavior: smooth;
-	scrollbar-color: #FFE68C #514EB1;
-	}
+/* Scrollbar color & behavior */
+html {scroll-behavior: smooth; scrollbar-color: #FFE68C #514EB1;}
 
+/* Spacey background */
 body {
 	background-image: url("Pictures/Background.png"); 
 	background-repeat: no-repeat; 
 	background-attachment: fixed;
 	background-size: cover; 
 }
-
+ /* Where all the content appears*/
 #wrapper { 
 	width: 75%;
     margin: auto;
@@ -21,25 +20,22 @@ body {
 	padding-left: 30px;
 	padding-right: 30px;
 	
+	/* RGBA for slight transparency! */
 	background: rgba(116, 113, 193, 0.92);
 	
-	border: 4px solid #514EB1;
-	box-shadow: 3px 3px 5px #000000;
+	border: 5.5px solid #514EB1;
+	box-shadow: 3px 3px 6.5px #000000;
 }
 
-header {
-	text-align: center;
-}
+/* Lines up header text to be centered within the wrapper */
+header {text-align: center;}
 
-h1 {
-	font-size: 26.5pt; 
-	font-family: "Press Start 2P", "Arial";
-}
+/* This was all code for the header text. Yes, I did this all purely in CSS. Yes, I am crazy. */
+h1 {font-size: 26.5pt; font-family: "Press Start 2P", "Arial";}
 
 .Letter1 {animation: Animation1 2s infinite;}
 
 @keyframes Animation1 {
-	
 	0% {color: #9AE7ED; text-shadow: 0 0 7px #9AE7ED;}
 	
 	20% {color: #FC97CC; text-shadow: 0 0 7px #FC97CC;}
@@ -51,13 +47,11 @@ h1 {
 	80% {color: #94FC68; text-shadow: 0 0 7px #94FC68;}
 	
 	100% {color: #9AE7ED; text-shadow: 0 0 7px #9AE7ED;}
-	
 }
 
 .Letter2 {animation: Animation2 2s infinite;}
 
 @keyframes Animation2 {
-	
 	0% {color: #94FC68; text-shadow: 0 0 7px #94FC68;}
 	
 	20% {color: #9AE7ED; text-shadow: 0 0 7px #9AE7ED;}
@@ -69,13 +63,11 @@ h1 {
 	80% {color: #FFE68C; text-shadow: 0 0 7px #FFE68C;}
 	
 	100% {color: #94FC68; text-shadow: 0 0 7px #94FC68;}
-	
 }
 
 .Letter3 {animation: Animation3 2s infinite;}
 
 @keyframes Animation3 {
-	
 	0% {color: #FFE68C; text-shadow: 0 0 7px #FFE68C;}
 	
 	20% {color: #94FC68; text-shadow: 0 0 7px #94FC68;}
@@ -87,13 +79,11 @@ h1 {
 	80% {color: #FFBC6B; text-shadow: 0 0 7px #FFBC6B;}
 	
 	100% {color: #FFE68C; text-shadow: 0 0 7px #FFE68C;}
-	
 }
 
 .Letter4 {animation: Animation4 2s infinite;}
 
 @keyframes Animation4 {
-	
 	0% {color: #FFBC6B; text-shadow: 0 0 7px #FFBC6B;}
 	
 	20% {color: #FFE68C; text-shadow: 0 0 7px #FFE68C;}
@@ -105,13 +95,11 @@ h1 {
 	80% {color: #FC97CC; text-shadow: 0 0 7px #FC97CC;}
 	
 	100% {color: #FFBC6B; text-shadow: 0 0 7px #FFBC6B;}
-	
 }
 
 .Letter5 {animation: Animation5 2s infinite;}
 
 @keyframes Animation5 {
-		
 	0% {color: #FC97CC; text-shadow: 0 0 7px #FC97CC;}
 	
 	20% {color: #FFBC6B; text-shadow: 0 0 7px #FFBC6B;}
@@ -123,11 +111,9 @@ h1 {
 	80% {color: #9AE7ED; text-shadow: 0 0 7px #9AE7ED;}
 	
 	100% {color: #FC97CC; text-shadow: 0 0 7px #FC97CC;}
-	
 }
 
 @keyframes AnimationTwo {
-	
 	0% {color: #FC97CC; text-shadow: 0 0 4px #FC97CC;}
 	
 	20% {color: #FFBC6B; text-shadow: 0 0 4px #FFBC6B;}
@@ -139,9 +125,9 @@ h1 {
 	80% {color: #9AE7ED; text-shadow: 0 0 4px #9AE7ED;}
 	
 	100% {color: #FC97CC; text-shadow: 0 0 4px #FC97CC;}
-	
 }
 
+/* Header level 2 code. A lot less used on the site now that I have the expanding boxes. */
 h2 {
 	font-size: 18pt;
 	font-family: "Arial";
@@ -149,12 +135,10 @@ h2 {
 	text-shadow: 0 0 5px #FFE68C;
 }
 
-p {
-	font-size: 12.5pt;
-	font-family: "Arial";
-	color: white;
-}
+/* Paragraph code */
+p {font-size: 12.5pt; font-family: "Arial"; color: white;}
 
+/* Code for any landscape-style picture you see on the top of the page */
 .FrontPic {
 	width: 576px;
 	height: 432px;
@@ -165,7 +149,7 @@ p {
 	border: 4px solid #514EB1;
 }
 
-/* COPIED -- FIX LATER!!! */
+/* Navigation bar code, borrowed from Fido's Freezzy's because I'm a lazy programmer and I'm not going to fix what's not broken. */
 
 nav {
 	overflow: hidden; 
@@ -191,13 +175,13 @@ nav a:hover {background-color: #413E8E; transition-duration: 0.5s; text-shadow: 
 
 nav a.active {background-color: #413E8E; color: #FFFFFF;}
 
+/* Code in case I decide to add icons to the right of the navigation bar. Not used yet. */
 .NavRight {float: right;}
 
 .Icon {height: 30px; width: 30px;}
 
-dl {
-	padding: 2px;
-}
+/* Definition list code, stolen from another portfolio I made back in high school */
+dl {padding: 2px;}
 
 dt {
 	font-size: 14pt;
@@ -214,10 +198,10 @@ dd {
 	padding: 3px;
 }
 
-footer{
-	text-align: center;
-}
+/* Centers the footer */
+footer{text-align: center;}
 
+/* I am so unnecessarily proud of this piece of code. It's just that great. */
 #Back2Top {
 	width: 120px;
 	height: 120px;
@@ -227,8 +211,10 @@ footer{
 	cursor: pointer;
 }
 
+/* Arguably the most useless change I made to my site. Highlighted text glows green. */
 ::selection {color: #94FC68; text-shadow: 0 0 5px #94FC68;}
 
+/* This was only supposed to be used on the about me page, but I used it on the Gateway page as well. */
 .TableMe {
 	margin-left: auto; 
 	margin-right: auto; 
@@ -255,60 +241,34 @@ footer{
 	text-shadow: 0 0 3px #9AE7ED;	
 }
 
+/* Code for the text boxes with an included square image, first used on the about me page to include some fun little facts about myself. */
 .FunFact1, .FunFact2 {
 	border: 4px solid #514EB1;
 	padding: 10px;
 	background: rgba(151, 149, 208, 0.55);
 }
 
-.FunFact1 p {
-	float: left;
-	width: 77.5%;
-	padding: 5px;
-}
+.FunFact1 p {float: left; width: 77.5%; padding: 5px;}
 
-.FunFact2 p {
-	float: right;
-	width: 77.5%;
-	padding: 5px;
-}
+.FunFact2 p {float: right; width: 77.5%; padding: 5px;}
 
-.FactPic1, .FactPic2 {
-	width: 180px;
-	height: 180px;
-	border: 4px solid #514EB1;
-}
+.FactPic1, .FactPic2 {width: 180px; height: 180px; border: 4px solid #514EB1;}
 
-.FactPic3 {
-	width: 180px;
-	height: 180px;
-	border: none;
-}
+/* This was just to remove the border of transparent images */
+.FactPic3 {width: 180px; height: 180px; border: none;}
 
-.Imp {
-	font-weight: bold;
-	color: #FFBC6B;
-	text-shadow: 0 0 3px #FFBC6B;
-}
+/* Important text */
+.Imp {font-weight: bold; color: #FFBC6B; text-shadow: 0 0 3px #FFBC6B;}
 
-.VeryImp {
-	font-family: "Press Start 2P", "Arial";
-	font-size: 12.5pt;
-	animation: AnimationTwo 4s infinite;
+/* Very important text */
+.VeryImp {font-family: "Press Start 2P", "Arial"; font-size: 12.5pt; animation: AnimationTwo 4s infinite;}
 
-}
+/* Links, which glow blue when hovered on */
+a {color: #9AE7ED; transition-duration: 0.5s;}
 
-a {
-	color: #9AE7ED;
-	transition-duration: 0.5s;
+a:hover {text-shadow: 0 0 4px #9AE7ED; transition-duration: 0.5s;}
 
-}
-
-a:hover {
-	text-shadow: 0 0 4px #9AE7ED;
-	transition-duration: 0.5s;
-}
-
+/* Looked silly, might delete later */
 .RoadWorkSign {
 	width: 300px;
 	height: 300px;
@@ -317,6 +277,7 @@ a:hover {
 	margin-right: auto;
 }
 
+/* All this code just for one image */
 .ContactPic {
 	width: 350px;
 	height: 350px;
@@ -326,6 +287,7 @@ a:hover {
 	display: block;
 }
 
+/* Small text */
 small {
 	color: #FC97CC; 
 	text-shadow: 0 0 7px #FC97CC;
@@ -333,6 +295,7 @@ small {
 	font-family: "Arial";
 }
 
+/* Code for the table of character traits on the About Me page */
 .CharacterTable {
 	margin-left: auto; 
 	margin-right: auto; 
@@ -352,7 +315,7 @@ small {
 	background: rgba(151, 149, 208, 0.55);
 }
 
-/* THIS IS A TEST!!!!!!!!! */
+/* Collapsible code */
 
 .Collapsible {
 	background-color: #514EB1;
@@ -371,10 +334,7 @@ small {
 	text-shadow: 0 0 5px #FFE68C;
 }
 
-.Collapsible:hover {
-	background-color: #413E8E;
-	transition-duration: 0.5s;
-}
+.Collapsible:hover {background-color: #413E8E; transition-duration: 0.5s;}
 
 .CollapsibleContent {
 	display: none;
@@ -391,6 +351,4 @@ small {
 	
 }
 
-.CollapsibleContent2 {
-	display: none;
-}
+.CollapsibleContent2 {display: none;}
