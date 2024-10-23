@@ -14,7 +14,7 @@ University Honors Portfolio, where you will find all sorts of interesting inform
 <meta name = "keywords" content = "software development, information technology, university of cincinnati, Tegan Rohne, 
 university honors program">
 
-<title> <title> Tegan's UHP Portfolio - Year in Review </title> </title>
+<title> Tegan's UHP Portfolio - Year in Review </title>
 
 <link rel = "stylesheet" href = "HnrsPortStyle.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P"> <!-- Pixel Text! -->
@@ -52,7 +52,70 @@ university honors program">
 
 <h2> My Years In Review </h2>
 
-<p> Coming soon! </p>
+<p>
+Each year, it is imperative that each of us as members of the esteemed University Honors Program write a review, reflecting on how
+our year has went and what we have learned. And I, as a member of the University Honors Program, will do the same. But it hasn't
+been a full year yet, so you aren't going to find anything of value on this page at the moment. Sorry! I appreciate you checking
+the page even if it is blank, nonetheless! 
+</p>
+
+<p style = "text-align: center"> <span class = "VeryImp">* Click on the boxes to see their [lack of] content! *</span> </p>
+
+<button type = "button" class = "Collapsible"> Review: Fall 2024 - Spring 2025 </button>
+
+<div class = "CollapsibleContent">
+
+<p> 
+This is where my first Year-In-Review reflective piece will be linked. Unfortunately, it is not finished yet, so there is nothing 
+linked here. Thanks for opening this anyway, though!
+</p>
+
+</div>
+
+<br>
+<br>
+
+<button type = "button" class = "Collapsible"> Review: Fall 2025 - Spring 2026 </button>
+
+<div class = "CollapsibleContent">
+
+<p> 
+This is where my second Year-In-Review reflective piece will be linked. Unfortunately, I'm only a first-year student as of currently.
+Thanks for opening this anyway, though!
+</p>
+
+</div>
+
+<br>
+<br>
+
+<button type = "button" class = "Collapsible"> Review: Fall 2026 - Spring 2027 </button>
+
+<div class = "CollapsibleContent">
+
+<p> 
+This is where my third Year-In-Review reflective piece will be linked. Unfortunately, we're nowhere near that point yet. Thanks for
+opening this anyway, though!
+</p>
+
+</div>
+
+<br>
+<br>
+
+<button type = "button" class = "Collapsible"> Review: Fall 2027 - Spring 2028 </button>
+
+<div class = "CollapsibleContent">
+
+<p> 
+This is where my fourth and final Year-In-Review reflective piece will be linked. Unfortunately, I'm nowhere near graduation. Thanks
+for opening this anyway, though! I highly appreciate your interest!
+</p>
+
+</div>
+
+<br>
+<br>
 
 <hr>
 
@@ -69,6 +132,23 @@ university honors program">
 <a href = "#top">
 <img src = "Pictures/BlastOff.png" alt = "A cool rocket ship. Click it to go back to the top of the page!" id = "Back2Top">
 </a>
+
+<script>
+var coll = document.getElementsByClassName("Collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
 </BODY>
 
