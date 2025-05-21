@@ -27,7 +27,6 @@ university honors program">
 <a href = "index.html"> Home </a> 
 <a href = "HnrsPortAbout.html"> About Me </a>
 <a href = "HnrsPortInvolvement.html"> Involvement </a>
-<a href = "HnrsPortGateway.html"> Gateway </a>
 <a href = "HnrsPortExperiences.html" class = "active"> Experiences </a>
 <a href = "HnrsPortRefl.html"> Year in Review </a>
 <a href = "HnrsPortFun.html"> Fun Stuff :] </a>
@@ -47,11 +46,42 @@ university honors program">
 
 <main>
 
-<img src = "Pictures/iSureHopeItDoes.png" alt = "Road work ahead" class = "RoadWorkSign">
+<img src = "Pictures/flamingos.jpg" alt = "Flamingos, taken at Toledo Zoo unfortunately. Wish I could say its from Cincy!" class = "FrontPic">
 
 <h2> My UHP Experiences </h2>
 
-<p> Coming soon! </p>
+<p>
+Over the course of my time in the honors program, students are expected to innovate and push past barriers, work towards inclusivity,
+and make a positive impact through a variety of experiences. Five are expected but more can be completed if one wishes.
+</p>
+
+<p>
+Below are my own experiences, whether self-designed, pre-approved, or otherwise. Each one expanded upon my current knowledge and 
+helped me grow not just as a global citizen scholar, but also a person, in many ways. 
+</p>
+
+<p>
+And no - none of these experiences involve flamingos. I just thought the picture looked nice and shouldn't go to waste. 
+</p>
+
+<div class = "FunFact1">
+
+<p>
+There is no blurb for this honors experience. And that link is broken. This experience hasn't been experienced yet. But it will be
+soon so stay tuned!
+
+<br>
+<br>
+
+Read the full experience <a href = "Experience1.html">here!</a> 
+
+</p>
+
+<img src = "Pictures/crossing.jpg" alt = "Crossing Church logo" class = "FactPic1">
+
+</div>
+
+<br>
 
 <hr>
 
@@ -69,8 +99,23 @@ university honors program">
 <img src = "Pictures/BlastOff.png" alt = "A cool rocket ship. Click it to go back to the top of the page!" id = "Back2Top">
 </a>
 
-</BODY>
+<script>
+var coll = document.getElementsByClassName("Collapsible");
+var i;
 
-</HTML>
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</BODY>
 
 </HTML>
