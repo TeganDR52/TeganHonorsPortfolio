@@ -135,6 +135,13 @@ h2 {
 	text-shadow: 0 0 5px #FFE68C;
 }
 
+h3 {
+	font-size: 16.5pt;
+	font-family: "Arial";
+	color: #FFBC6B;
+	text-shadow: 0 0 5px #FFBC6B;
+}
+
 /* Paragraph code */
 p {font-size: 12.5pt; font-family: "Arial"; color: white;}
 
@@ -142,6 +149,16 @@ p {font-size: 12.5pt; font-family: "Arial"; color: white;}
 .FrontPic {
 	width: 576px;
 	height: 432px;
+	opacity: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid #514EB1;
+}
+
+.BigPic {
+	width: 420px;
+	height: 420px;
 	opacity: 100%;
 	display: block;
 	margin-left: auto;
@@ -258,7 +275,7 @@ footer{text-align: center;}
 .FactPic3 {width: 180px; height: 180px; border: none;}
 
 /* Important text */
-.Imp {font-weight: bold; color: #FFBC6B; text-shadow: 0 0 3px #FFBC6B;}
+.Imp {font-weight: bold; color: #FFBC6B; text-shadow: 0 0 2px #FFBC6B;}
 
 /* Very important text */
 .VeryImp {font-family: "Press Start 2P", "Arial"; font-size: 12.5pt; animation: AnimationTwo 4s infinite;}
