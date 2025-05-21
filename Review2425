@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<HTML lang = "en">
+
+<HEAD>
+
+<meta charset = "utf-8">
+
+<meta name = "description"
+content = "Hello! My name is Tegan, and I am a student at University of Cincinnati studying Information Technology! This is My
+University Honors Portfolio, where you will find all sorts of interesting information about me! Learn more about me and my story here!">
+
+<meta name = "keywords" content = "software development, information technology, university of cincinnati, Tegan Rohne, 
+university honors program">
+
+
+<title> Tegan's UHP Portfolio - Year-In-Review 2024-25 </title>
+
+<link rel = "stylesheet" href = "HnrsPortStyle.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P"> <!-- Pixel Text! -->
+
+</HEAD>
+
+<BODY>
+
+<nav id = "top">
+
+<a href = "index.html"> Home </a> 
+<a href = "HnrsPortAbout.html"> About Me </a>
+<a href = "HnrsPortInvolvement.html"> Involvement </a>
+<a href = "HnrsPortExperiences.html"> Experiences </a>
+<a href = "HnrsPortRefl.html"> Year in Review </a>
+<a href = "HnrsPortFun.html"> Fun Stuff :] </a>
+<a href = "HnrsPortContact.html"> Contact </a>
+
+</nav>
+
+<br>
+
+<div id = "wrapper">
+
+<header>
+
+<h1> <span class = "Letter1">Y</span><span class = "Letter2">e</span><span class = "Letter3">a</span><span class = "Letter4">r</span> <span class = "Letter5">I</span><span class = "Letter1">n</span> <span class = "Letter2">R</span><span class = "Letter3">e</span><span class = "Letter4">v</span><span class = "Letter5">i</span><span class = "Letter1">e</span><span class = "Letter2">w</span></h1>
+ 
+</header>
+
+<main>
+
+<img src = "Pictures/horseweed.jpg" alt = "A sprig of horsebane growing through the rough, much like me growing to enjoy UHP against all odds" class = "BigPic">
+
+<h2> Growing Into Honor: My Reflection of Fall 24 - Spring 25 </h2>
+
+<p> <span class = "Imp">Prompt:</span> What is your definition of a global citizen scholar and how has it changed throughout your time in UHP? 
+Using specific examples, how have you made progress toward becoming one this year? Discuss how this connects to and continues to influence your 
+academic and professional goals.
+</p>
+
+<hr>
+
+<p>
+Global Citizen Scholar. A word I once used to look forward to hearing every Monday morning. A word I grew to loathe for every bit of false 
+positivity it appeared to represent. And a word I would soon soon grow into and love as I'm made to appreciate the title more and more all over the 
+course of a year. 
+</p>
+
+<p>
+I was pushed into taking Gateway to University Honors during my first semester. And it sounded even then like one of those programs a 
+school would have for its own face-saving more than anything else. Kind of like the weekly class I had during middle school on morality based on 
+MBTI personality tests. 
+</p>
+
+<p>
+But as I took the class, I grew to enjoy the small glint into the community I had. Many of the students there were extremely supportive of 
+one another, and seemed to genuinely want to see one another succeed as much as themselves. I even had a long conversation with one student 
+about art one morning when we had to propose a creative solution to a problem in class. It was truly one of those classes that sounds pointless 
+on paper, but you had to be there to see the amazing positive difference it makes for you. Especially when you're majoring in IT with no other 
+passions than the profits it promised and failed to deliver. 
+</p>
+
+<p>
+As the semester went on, and as I saw less and less opportunity to put in my first honors experience and truly be part of the program, my opinion 
+of being a Global Citizen Scholar began to shift. Although I was accepted into the Tales of Resilience program, I was waiting on another 
+opportunity to get back with me. And I ultimately lost out on both because research programs at UC seem to get a thrill out of ghosting their 
+future student assistants. Slowly, the University Honors Program felt less about having a community, and more about funding the endeavors of those 
+who want to take a vacation across the globe or play around with microbes in fancy labs. I was seeing less open doors for the everyman IT student, 
+and less opportunities to feel like I truly belonged. 
+</p>
+
+<p>
+It was only when I was able to admit to myself that I wasn't your everyman IT student that I was eventually able to see the true meaning in 
+being a Global Citizen Scholar again. It wasn't about going around the globe or studying in state-of-the-art opportunities. You can throw away 
+the glitz and the glamour, the pomp and the circumstance, the glorified stories that sound more like fairy tales than genuine anecdotes.
+None of that matters.
+</p>
+
+<p>
+Being a Global Citizen Scholar was always about the honor. It's in the name – University Honors Program. To include when nobody else wants to 
+be inclusive. To innovate; learning new things, seeing the world in a new light, gaining new perspectives. And to make an impact – not just on 
+those around you, but on yourself. I wasn't just your everyman IT student. Those who run the program saw someone worthy of honor. And now I'm 
+someone who is going to try their hardest to show that honor in all the work that I do, as I embark on my first ever honors experience over the 
+summer, and as I continue to work towards being someone who can both share my knowledge and gain new insights no matter where I am in the world. 
+Global Citizen Scholars are about showing honor and making an impact no matter where they're at, and I've grown proud to be one of them. 
+</p>
+
+<hr>
+
+</main>
+
+<footer>
+
+<p> <small> &copy Tegan Rohne 2024 </small> </p>
+
+</footer>
+
+</div>
+
+<a href = "#top">
+<img src = "Pictures/BlastOff.png" alt = "A cool rocket ship. Click it to go back to the top of the page!" id = "Back2Top">
+</a>
+
+</BODY>
+
+</HTML>
