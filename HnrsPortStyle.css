@@ -37,15 +37,10 @@ h1 {font-size: 26.5pt; font-family: "Press Start 2P", "Arial";}
 
 @keyframes Animation1 {
 	0% {color: #9AE7ED; text-shadow: 0 0 7px #9AE7ED;}
-	
 	20% {color: #FC97CC; text-shadow: 0 0 7px #FC97CC;}
-	
 	40% {color: #FFBC6B; text-shadow: 0 0 7px #FFBC6B;}
-	
 	60% {color: #FFE68C; text-shadow: 0 0 7px #FFE68C;}
-	
 	80% {color: #94FC68; text-shadow: 0 0 7px #94FC68;}
-	
 	100% {color: #9AE7ED; text-shadow: 0 0 7px #9AE7ED;}
 }
 
@@ -53,15 +48,10 @@ h1 {font-size: 26.5pt; font-family: "Press Start 2P", "Arial";}
 
 @keyframes Animation2 {
 	0% {color: #94FC68; text-shadow: 0 0 7px #94FC68;}
-	
 	20% {color: #9AE7ED; text-shadow: 0 0 7px #9AE7ED;}
-	
 	40% {color: #FC97CC; text-shadow: 0 0 7px #FC97CC;}
-	
 	60% {color: #FFBC6B; text-shadow: 0 0 7px #FFBC6B;}
-	
 	80% {color: #FFE68C; text-shadow: 0 0 7px #FFE68C;}
-	
 	100% {color: #94FC68; text-shadow: 0 0 7px #94FC68;}
 }
 
@@ -69,15 +59,10 @@ h1 {font-size: 26.5pt; font-family: "Press Start 2P", "Arial";}
 
 @keyframes Animation3 {
 	0% {color: #FFE68C; text-shadow: 0 0 7px #FFE68C;}
-	
 	20% {color: #94FC68; text-shadow: 0 0 7px #94FC68;}
-	
 	40% {color: #9AE7ED; text-shadow: 0 0 7px #9AE7ED;}
-	
 	60% {color: #FC97CC; text-shadow: 0 0 7px #FC97CC;}
-	
 	80% {color: #FFBC6B; text-shadow: 0 0 7px #FFBC6B;}
-	
 	100% {color: #FFE68C; text-shadow: 0 0 7px #FFE68C;}
 }
 
@@ -85,15 +70,10 @@ h1 {font-size: 26.5pt; font-family: "Press Start 2P", "Arial";}
 
 @keyframes Animation4 {
 	0% {color: #FFBC6B; text-shadow: 0 0 7px #FFBC6B;}
-	
 	20% {color: #FFE68C; text-shadow: 0 0 7px #FFE68C;}
-	
 	40% {color: #94FC68; text-shadow: 0 0 7px #94FC68;}
-	
 	60% {color: #9AE7ED; text-shadow: 0 0 7px #9AE7ED;}
-	
 	80% {color: #FC97CC; text-shadow: 0 0 7px #FC97CC;}
-	
 	100% {color: #FFBC6B; text-shadow: 0 0 7px #FFBC6B;}
 }
 
@@ -101,29 +81,19 @@ h1 {font-size: 26.5pt; font-family: "Press Start 2P", "Arial";}
 
 @keyframes Animation5 {
 	0% {color: #FC97CC; text-shadow: 0 0 7px #FC97CC;}
-	
 	20% {color: #FFBC6B; text-shadow: 0 0 7px #FFBC6B;}
-	
 	40% {color: #FFE68C; text-shadow: 0 0 7px #FFE68C;}
-	
 	60% {color: #94FC68; text-shadow: 0 0 7px #94FC68;}
-	
 	80% {color: #9AE7ED; text-shadow: 0 0 7px #9AE7ED;}
-	
 	100% {color: #FC97CC; text-shadow: 0 0 7px #FC97CC;}
 }
 
 @keyframes AnimationTwo {
 	0% {color: #FC97CC; text-shadow: 0 0 4px #FC97CC;}
-	
 	20% {color: #FFBC6B; text-shadow: 0 0 4px #FFBC6B;}
-	
 	40% {color: #FFE68C; text-shadow: 0 0 4px #FFE68C;}
-	
 	60% {color: #94FC68; text-shadow: 0 0 4px #94FC68;}
-	
 	80% {color: #9AE7ED; text-shadow: 0 0 4px #9AE7ED;}
-	
 	100% {color: #FC97CC; text-shadow: 0 0 4px #FC97CC;}
 }
 
